@@ -1,15 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-const HelloWorld = React.createClass({
-  render() {
-    return (
-      <div>Hello React World!</div>
-    );
-  },
-});
+import routes from "./config/routes";
 
 ReactDOM.render(
-  <HelloWorld />,
+  routes,
   document.getElementById("app")
 );
