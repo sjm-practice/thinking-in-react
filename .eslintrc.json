@@ -27,6 +27,7 @@
     "no-underscore-dangle": ["error", { "allow": ["_id"]}],
     "react/no-danger": "warn",
     "react/react-in-jsx-scope": "off",
-    "react/jsx-filename-extension": "off"
+    "react/jsx-filename-extension": "off",
+    "arrow-body-style": ["error", "always"]
   }
 }
