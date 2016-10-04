@@ -1,7 +1,7 @@
 {
-  "name": "simple-react-boilerplate",
+  "name": "thinking-in-react",
   "version": "1.0.0",
-  "description": "A simple react boilerplate for node.",
+  "description": "A code along of the react tutorial.",
   "main": "index.js",
   "scripts": {
     "production": "webpack -p",
@@ -9,19 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sjm-practice/simple-react-boilerplate.git"
+    "url": "git+https://github.com/sjm-practice/thinking-in-react.git"
   },
   "keywords": [
     "node",
-    "react",
-    "boilerplate"
+    "react"
   ],
   "author": "Steve Marsh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sjm-practice/simple-react-boilerplate/issues"
+    "url": "https://github.com/sjm-practice/thinking-in-react/issues"
   },
-  "homepage": "https://github.com/sjm-practice/simple-react-boilerplate#readme",
+  "homepage": "https://github.com/sjm-practice/thinking-in-react#readme",
   "devDependencies": {
     "babel-core": "^6.16.0",
     "babel-loader": "^6.2.5",

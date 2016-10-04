@@ -1,5 +1,5 @@
-# simple-react-boilerplate
-This is a very simple react boilerplate, for node, pretty much a hello world.
+# Thinking in React
+This is a code-along exercise, following the [Thinking in React](https://facebook.github.io/react/docs/thinking-in-react.html) tutorial.
 
-Much of this boilerplate is based on what was learned in Tyler McGinnis' [React.js Fundamentals course](http://www.reactjsprogram.com/).
-
+## Notes
+*
