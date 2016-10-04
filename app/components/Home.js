@@ -6,10 +6,10 @@ import { transparentBg } from "../styles";
 const Home = () => {
   return (
     <div className="jumbotron col-sm-12 text-center" style={transparentBg}>
-      <h1>Github Battle</h1>
-      <p className="lead">What even is a jQuery?</p>
-      <Link to="/playerOne">
-        <button type="button" className="btn btn-lg btn-success">Get Started</button>
+      <h1>Hello React World!</h1>
+      <p className="lead">A very simple react boilerplate.</p>
+      <Link to="/samplePage">
+        <button type="button" className="btn btn-lg btn-success">Sample Page</button>
       </Link>
     </div>
   );
