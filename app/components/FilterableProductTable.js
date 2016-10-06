@@ -1,11 +1,11 @@
 import React from "react";
 
-import { transparentBg } from "../styles";
 import SearchBar from "./SearchBar";
+import "../main.css";
 
 const FilterableProductTable = () => {
   return (
-    <div className="jumbotron col-sm-12 text-center" style={transparentBg}>
+    <div className="jumbotron col-sm-12 text-center filterable-product-table">
       <SearchBar />
     </div>
   );
