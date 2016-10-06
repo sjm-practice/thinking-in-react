@@ -7,7 +7,7 @@ import "../main.css";
 
 const FilterableProductTable = () => {
   return (
-    <div className="jumbotron col-sm-12 filterable-product-table">
+    <div className="col-sm-12 filterable-product-table">
       <SearchBar />
       <ProductTable products={PRODUCTS} />
     </div>
