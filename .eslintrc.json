@@ -30,6 +30,7 @@
     "react/no-danger": "warn",
     "react/react-in-jsx-scope": "off",
     "react/jsx-filename-extension": "off",
-    "arrow-body-style": ["error", "always"]
+    "arrow-body-style": ["error", "always"],
+    "react/forbid-prop-types": ["warn", { "forbid": ["any"]}]
   }
 }
