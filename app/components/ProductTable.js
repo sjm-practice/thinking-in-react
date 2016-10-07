@@ -7,12 +7,13 @@ import ProductRow from "./ProductRow";
 
 const ProductTable = (props) => {
   const rows = [];
-  const lastCategory = null;
+  let lastCategory = null;
   props.products.forEach((product) => {
     if (product.category !== lastCategory) {
       rows.push(<ProductCategoryRow category={product.category} key={product.category} />);
     }
     rows.push(<ProductRow product={product} key={product.name} />);
+    lastCategory = product.category;
   });
 
   return (
