@@ -7,11 +7,13 @@ const SearchBar = (props) => {
         type="text"
         placeholder="Search..."
         value={props.filterText}
+        onChange={props.onFilterChange}
       />
       <p>
         <input
           type="checkbox"
           checked={props.inStockOnly}
+          onChange={props.onInStockChange}
         />
         {" "}
         Only show products in stock
@@ -23,6 +25,8 @@ const SearchBar = (props) => {
 SearchBar.propTypes = {
   filterText: PropTypes.string.isRequired,
   inStockOnly: PropTypes.bool.isRequired,
+  onFilterChange: PropTypes.func.isRequired,
+  onInStockChange: PropTypes.func.isRequired,
 };
 
 export default SearchBar;

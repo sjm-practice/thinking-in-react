@@ -13,12 +13,26 @@ class FilterableProductTableContainer extends Component {
     };
   }
 
+  handleSetInStock(inStockOnly) {
+    this.setState({
+      inStockOnly,
+    });
+  }
+
+  handleSetFilter(filterText) {
+    this.setState({
+      filterText,
+    });
+  }
+
   render() {
     return (
       <FilterableProductTable
         products={PRODUCTS}
         filterText={this.state.filterText}
         inStockOnly={this.state.inStockOnly}
+        onSetFilter={filterText => this.handleSetFilter(filterText)}
+        onSetInStock={inStockOnly => this.handleSetInStock(inStockOnly)}
       />
     );
   }
